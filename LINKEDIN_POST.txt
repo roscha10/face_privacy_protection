@@ -1,0 +1,17 @@
+Protect facial privacy in public videos with AI-powered detection 🔒
+
+Using YOLOv11-Face and OpenCV, I built a real-time face anonymization system that detects and protects identities in videos, images, and live streams while preserving content context.
+
+Key advantages:
+✅ Supports GDPR and privacy regulations compliance
+✅ Real-time processing at ~45 FPS on standard hardware
+✅ Multiple anonymization methods (blur, pixelation, masking)
+✅ Reduces ethical and legal risks in video analytics
+✅ Preserves scene context while removing identifiable details
+
+Applications: Social media platforms, surveillance systems, medical imaging, educational content, and dataset anonymization.
+
+Check out the project and run it yourself
+🔗 https://github.com/roscha10/face_privacy_protection
+
+#ComputerVision #AI #Privacy #GDPR #MachineLearning #Python

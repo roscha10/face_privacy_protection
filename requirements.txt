@@ -1,0 +1,19 @@
+# Face Privacy Protection - Dependencies
+# Python 3.8+ required
+
+# Computer Vision
+opencv-python>=4.8.0              # Core computer vision library
+Pillow>=10.0.0                     # Image processing for emoji effects
+
+# Deep Learning - YOLO
+ultralytics>=8.4.0                 # YOLOv11 framework (includes YOLO26 models)
+torch>=2.0.0                       # PyTorch backend for YOLO
+torchvision>=0.15.0                # Vision utilities for PyTorch
+
+# Utilities
+numpy>=1.24.0                      # Numerical computing
+tqdm>=4.65.0                       # Progress bars for video processing
+
+# Optional: GPU Acceleration
+# For CUDA-enabled GPUs, install PyTorch with CUDA support:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
