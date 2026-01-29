@@ -92,9 +92,9 @@ if __name__ == "__main__":
     video_to_gif(
         input_path="assets/demo.avi",
         output_path="assets/demo.gif",
-        fps=10,
-        scale_width=800,
-        max_frames=100  # Limit to 100 frames (~10 seconds at 10 FPS)
+        fps=15,  # Más FPS = más suave
+        scale_width=1000,  # Más resolución = mejor calidad
+        max_frames=120  # Más frames
     )
 
     print("\n✓ Done! You can now commit and push to GitHub.")

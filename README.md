@@ -2,8 +2,9 @@
 
 Real-time face detection and privacy protection using AI-powered anonymization techniques.
 
-![Demo](assets/demo.gif)
-> *Real-time face pixelation demonstration (Original vs Protected)*
+https://github.com/roscha10/face_privacy_protection/assets/demo.mp4
+
+> *Real-time face pixelation demonstration (Original vs Protected) - Click to play*
 
 ## Overview
 
@@ -114,7 +115,7 @@ python src/face_privacy.py --demo --input test/video_003.mp4 --output output/dem
 | `--input` | Path to input video/image file | `test/video_003.mp4` |
 | `--output` | Path to save output file | `output/result.avi` |
 | `--effect` | Privacy effect: `pixelate`, `blur`, `blackbox`, `emoji` | `pixelate` |
-| `--intensity` | Effect intensity (5-50 for pixelation) | `15` |
+| `--intensity` | Effect intensity (5-50 for pixelation) | `8` |
 | `--demo` | Create side-by-side comparison video | `False` |
 | `--no-display` | Run without GUI display (save only) | `False` |
 | `--fps` | Show FPS counter | `True` |
