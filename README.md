@@ -114,7 +114,7 @@ python src/face_privacy.py --demo --input test/video_003.mp4 --output output/dem
 | `--input` | Path to input video/image file | `test/video_003.mp4` |
 | `--output` | Path to save output file | `output/result.avi` |
 | `--effect` | Privacy effect: `pixelate`, `blur`, `blackbox`, `emoji` | `pixelate` |
-| `--intensity` | Effect intensity (5-50 for pixelation) | `12` |
+| `--intensity` | Effect intensity (5-50 for pixelation) | `15` |
 | `--demo` | Create side-by-side comparison video | `False` |
 | `--no-display` | Run without GUI display (save only) | `False` |
 | `--fps` | Show FPS counter | `True` |

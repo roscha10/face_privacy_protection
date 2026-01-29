@@ -493,8 +493,8 @@ Examples:
                        choices=['pixelate', 'blur', 'blackbox', 'emoji'],
                        help='Privacy effect to apply (default: pixelate)')
 
-    parser.add_argument('--intensity', type=int, default=12,
-                       help='Effect intensity (5-50, default: 12)')
+    parser.add_argument('--intensity', type=int, default=15,
+                       help='Effect intensity (5-50, default: 15)')
 
     parser.add_argument('--demo', action='store_true',
                        help='Create side-by-side demo video')
