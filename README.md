@@ -2,9 +2,8 @@
 
 Real-time face detection and privacy protection using AI-powered anonymization techniques.
 
-https://github.com/roscha10/face_privacy_protection/assets/demo.mp4
-
-> *Real-time face pixelation demonstration (Original vs Protected) - Click to play*
+![Demo](assets/demo.gif)
+> *Real-time face pixelation demonstration (Original vs Protected)*
 
 ## Overview
 
